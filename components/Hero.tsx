@@ -1,6 +1,7 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { GridBackgroundDemo } from './ui/GridBackground'
+import Ctabutton from './ui/Ctabutton'
 
 const Hero = () => {
   return (
@@ -12,7 +13,6 @@ const Hero = () => {
             
         </div>
         <GridBackgroundDemo/>
-       
     </div>
   )
 }
