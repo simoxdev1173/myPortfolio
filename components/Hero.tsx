@@ -25,10 +25,10 @@ const Hero = () => {
       </div>
 
       {/* Main container with padding and flex column for overall structure */}
-      <div className="flex flex-col items-center justify-center w-full px-4 pt-15">
+      <div className="flex flex-col items-start justify-start lg:items-center lg:justify-center w-full px-4 pt-15">
 
         {/* This is your main title, it remains the same */}
-        <h1 className="bg-clip-text text-center font-excon font-bold bg-gradient-to-b text-primary text-xl md:text-2xl lg:text-7xl/13">
+        <h1 className="bg-clip-text text-4xl text  lg:text-center font-excon font-bold bg-gradient-to-b text-primary md:text-2xl lg:text-7xl/13">
           <TextGenerateEffect words="A Full-Stack Developper" />
         </h1>
 
@@ -37,11 +37,11 @@ const Hero = () => {
           
           {/* First Column: Text and Button */}
         
-          <div className="flex flex-col items-center md:items-start">
-            <h2 className="bg-clip-text text-center md:text-left font-excon bg-gradient-to-b text-primary text-lg md:text-xl lg:text-3xl">
+          <div className="flex flex-col items-start">
+            <h2 className="bg-clip-text text-start md:text-left font-excon bg-gradient-to-b text-primary text-lg font-bold md:text-xl lg:text-3xl">
               <TextGenerateEffect words="Based in Morroco Skhirate-Rabat " />
             </h2>
-            <h3 className="max-w-xl text-sm md:text-lg text-secondary text-center md:text-left mt-4">
+            <h3 className="max-w-xl text-4 text-pretty md:text-lg text-secondary text-start  md:text-left mt-4">
               <TextGenerateEffect words="I'm a Full-Stack Developer specializing in building fast, responsive, and intuitive web applications. I transform ideas into reality with clean code, ensuring a seamless user experience from start to finish." />
             </h3>
             <div className="mt-8">
