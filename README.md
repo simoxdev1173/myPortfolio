@@ -3,7 +3,7 @@
 
 This is a **Next.js** project.
 My Personal Porfolio
-## Live preview: (deployed by vercel ") : https://appip.vercel.app/](https://my-portfolio-six-teal-62.vercel.app
+## Live preview: (deployed by vercel ") : https://my-portfolio-six-teal-62.vercel.app
 
 ## 🧠 Getting Started (Local Setup)
 
