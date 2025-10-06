@@ -1,17 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local"; 
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+// Configure your local font
+const excon =localFont({
+  src : './fonts/excon/Excon-Medium.woff2',
+  variable: '--font-excon',
 });
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const ranade = localFont({
+  src: './fonts/ranade/Ranade-Light.ttf', 
+  variable: '--font-ranade', 
 });
-
 export const metadata: Metadata = {
   title: "EL ATTAR MOHAMMED PORTFOLIO",
   description: "MY MODERN PORTFOLIO WEBSITE",
@@ -25,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={` ${ranade.variable} antialiased`}
       >
         {children}
       </body>
