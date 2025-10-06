@@ -14,15 +14,37 @@
   /* Defines a theme variable for the monospace font stack */
 
 }
-
+ #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
 body {
   background-color: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-ranade);
 }
-
 @layer utilities {
-  .text-balance {
+  .content {
+    width: 334px;
+    height: 216px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    overflow-y: auto;
+    padding: 0;
+  }
+
+  .wrapper {
+    padding: 10px;
+    width: 668px;
+    height: 432px;
+    transform: scale(0.5);
+    transform-origin: top left;
+  }
+    .text-balance {
     text-wrap: balance;
   }
 }
+
